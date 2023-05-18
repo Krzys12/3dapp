@@ -75,6 +75,9 @@ $(document).ready(function(){
         $('#reference3').html('<p>' + jsonObj.pageTextData[15].reference3 + '<p>');
         $('#reference4').html('<p>' + jsonObj.pageTextData[15].reference4 + '<p>');
         $('#reference5').html('<p>' + jsonObj.pageTextData[15].reference5 + '<p>');
+        $('#reference6').html('<p>' + jsonObj.pageTextData[15].reference6 + '<p>');
+        $('#reference7').html('<p>' + jsonObj.pageTextData[15].reference7 + '<p>');
+        $('#reference8').html('<p>' + jsonObj.pageTextData[15].reference8 + '<p>');
         //Content for the about page
         $('#coke_Description').html('<p>' + jsonObj.pageTextData[16].cocacolaDescription + '<p>');
         $('#sprite_Description').html('<p>' + jsonObj.pageTextData[16].spriteDescription + '<p>');
